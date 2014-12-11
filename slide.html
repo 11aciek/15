@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Ślizgacz</title>
+        <link href="slide.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h2>&diams; Slider game &diams;</h2>
+        </header>
+        <div id="page">
+            <form id="top">
+                <label for="height">height:</label>
+                <input type="number" name="height" id="height" min="2" max="4" value="3"/>
+                <label for="width">width:</label>
+                <input type="number" name="width" id="width" min="2" max="4" value="3"/>
+                <button type="button" id="new">New board</button>
+            </form>
+            <div id="board">
+                <table>
+                </table>
+            </div>
+            <form id="bottom">
+                <button type="button" id="shuffle">Shuffle</button>
+                <button type="button" id="reset">Reset</button>
+            </form>
+        </div> <!-- page -->
+        <script src="jquery.js"></script>
+        <script src="slide.js"></script>
+    </body>
+</html>
