@@ -1,10 +1,4 @@
 # Slider - Ślizgacz
-### tak jak
-*Zabawka* / _układanka_
-Zabawka, w której przesuwa się płytki z numerkami.
-[mój link](http/www.dupa.com).
-__podkreślenie__ **co to **
-~~strong~~
-* jeden
-* dwa
-Dodatkowa linia
+This is only test repsitory for *github*.
+This is also small toy/puzzle, called 15.
+It was written as a challenge.
